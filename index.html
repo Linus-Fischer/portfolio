@@ -7,16 +7,24 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <!-- Hero Section -->
-  <section class="flex flex-col justify-center pt-24 pb-4 px-12">
-    <h1 class="text-7xl md:text-8xl font-semibold tracking-tight leading-tight mb-4 font-serif text-sky-400">
+  <!-- ===================== -->
+  <!-- Hero / Intro Section -->
+  <!-- ===================== -->
+  <section class="flex flex-col justify-center pt-24 pb-4 px-8">
+    <!-- Name -->
+    <h1 class="text-7xl md:text-8xl font-semibold tracking-tight leading-tight mb-4 italic text-sky-400">
       Linus Fischer
     </h1>
-    <p class="text-white text-lg md:text-xl max-w-2xl mb-4">
-      Aerospace engineer blending hands-on manufacturing with high-level research in fluid dynamics, lightweight structures, and space systems.
+
+    <!-- Short Description -->
+    <p class="text-white text-lg md:text-xl max-w-full mb-4">
+      Aerospace engineer blending hands-on manufacturing with high-level research in fluid dynamics,
+      lightweight structures, and space systems.
     </p>
+
+    <!-- LinkedIn Icon -->
     <a
-      href="https://www.linkedin.com/in/linus-fischer"
+      href="https://www.linkedin.com/in/yourprofile"
       target="_blank"
       rel="noopener noreferrer"
       class="transition hover:opacity-75 mb-6"
@@ -27,23 +35,32 @@
         class="w-6 h-6"
       />
     </a>
+
+    <!-- Divider Line -->
     <hr class="border-gray-700 mt-6" />
   </section>
 
-  <!-- Timeline Section -->
-  <section class="max-w-7xl mx-auto py-10 space-y-14 px-12">
-    <div class="flex flex-row items-center justify-between w-full">
+  <!-- ===================== -->
+  <!-- Timeline / Resume Section -->
+  <!-- ===================== -->
+  <section class="max-w-7xl mx-auto py-10 space-y-14 px-8">
+    <!-- Resume Entry 1 -->
+    <div class="flex flex-row items-start justify-between w-full">
+      <!-- Date -->
       <div class="w-1/5 text-left text-white">2024 – Present</div>
+      <!-- Project Info -->
       <div class="w-3/5 text-left">
         <div class="font-bold text-white">Reusable Rocket CFD</div>
         <p class="text-gray-400">Simulated high Mach flow to optimize drag</p>
       </div>
+      <!-- Image Link -->
       <a href="https://example.com" target="_blank" class="w-1/5 text-right">
         <img src="images/rocket.jpg" alt="Reusable Rocket CFD" class="rounded-lg shadow-md hover:opacity-80 transition w-full max-w-[200px] ml-auto" />
       </a>
     </div>
 
-    <div class="flex flex-row items-center justify-between w-full">
+    <!-- Resume Entry 2 -->
+    <div class="flex flex-row items-start justify-between w-full">
       <div class="w-1/5 text-left text-white">2023 – 2024</div>
       <div class="w-3/5 text-left">
         <div class="font-bold text-white">SpaceX Manufacturing</div>
@@ -54,7 +71,8 @@
       </a>
     </div>
 
-    <div class="flex flex-row items-center justify-between w-full">
+    <!-- Resume Entry 3 -->
+    <div class="flex flex-row items-start justify-between w-full">
       <div class="w-1/5 text-left text-white">2022 – 2023</div>
       <div class="w-3/5 text-left">
         <div class="font-bold text-white">Aircraft Build</div>
@@ -65,7 +83,8 @@
       </a>
     </div>
 
-    <div class="flex flex-row items-center justify-between w-full">
+    <!-- Resume Entry 4 -->
+    <div class="flex flex-row items-start justify-between w-full">
       <div class="w-1/5 text-left text-white">2021 – 2022</div>
       <div class="w-3/5 text-left">
         <div class="font-bold text-white">CNT Research</div>
@@ -75,6 +94,8 @@
         <img src="images/cnt.jpg" alt="CNT Research" class="rounded-lg shadow-md hover:opacity-80 transition w-full max-w-[200px] ml-auto" />
       </a>
     </div>
+
+    <!-- Bottom Divider Line -->
     <hr class="border-gray-700 mt-14" />
   </section>
 </body>
