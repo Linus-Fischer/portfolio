@@ -1,8 +1,18 @@
 /* Global Styles */
+@import url(https://db.onlinewebfonts.com/c/a9db66cbaf8b1781ee08aeaae793c61b?family=NewRailAlphabet-White);
+@font-face {
+    font-family: "NewRailAlphabet-White";
+    src: url("https://db.onlinewebfonts.com/t/a9db66cbaf8b1781ee08aeaae793c61b.eot");
+    src: url("https://db.onlinewebfonts.com/t/a9db66cbaf8b1781ee08aeaae793c61b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a9db66cbaf8b1781ee08aeaae793c61b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a9db66cbaf8b1781ee08aeaae793c61b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a9db66cbaf8b1781ee08aeaae793c61b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a9db66cbaf8b1781ee08aeaae793c61b.svg#NewRailAlphabet-White")format("svg");
+}
 body {
   background-color: #000;
   color: white;
-  font-family: sans-serif;
+  font-family: "NewRailAlphabet-White";
   font-size: 14px;
   margin: 0;
   padding: 0;
